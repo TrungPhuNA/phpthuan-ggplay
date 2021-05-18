@@ -76,7 +76,7 @@
 
     function base_url()
     {
-        return $url  = "http://localhost:8000/"; 
+        return $url  = "http://hoanghuy.site/";
     }
 
     function public_admin()

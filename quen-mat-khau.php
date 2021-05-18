@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         //goi thu vien
         include('PHPMailer/class.smtp.php');
         include "PHPMailer/class.phpmailer.php";
-        $link = 'http://localhost:8000/lay-lai-mat-khau.php?email='.$data['email'];
+        $link = 'http://hoanghuy.site/lay-lai-mat-khau.php?email='.$data['email'];
         $nFrom = "Codethue";    //mail duoc gui tu dau, thuong de ten cong ty ban
         $mFrom = 'websitedonghotrungphu@gmail.com';  //dia chi email cua ban
         $mPass = 'yokhjwjngslbqqlx';       //mat khau email cua ban
